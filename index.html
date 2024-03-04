@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+     <div class="container-password">
+        <div class="header">
+            <h1>password generator</h1>
+        </div>
+
+        <div class="display">
+            <input type="text" class="pass-input" placeholder="password" disabled>
+            <button class="copy">copy</button>
+        </div>
+
+        <div class="setting">
+            <label for="" class="length-label">Length</label>
+            <input type="number" id="length-number" min="5" max="20" step="1" >
+        </div>
+        <div class="setting">
+            <label for="" class="uppercase-label">Uppercase</label>
+            <input type="checkbox" id="uppercase" checked >
+        </div>
+        <div class="setting">
+            <label for="" class="lowercase-label">Lowercase</label>
+            <input type="checkbox" id="lowercase" checked>
+        </div>
+        <div class="setting">
+            <label for="" class="numbers-label">Numbers</label>
+            <input type="checkbox" id="numbers" checked/>
+        </div>
+        <div class="setting">
+            <label for="" class="symbol-label">Symbol</label>
+            <input type="checkbox" id="symbol" checked>
+        </div>
+
+        <div class="generate-btn">
+            <button id="generate">
+                generate
+            </button>
+        </div>
+     </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
